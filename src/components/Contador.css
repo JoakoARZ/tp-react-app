@@ -1,0 +1,67 @@
+.contador {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+  max-width: 360px;
+  text-align: center;
+  box-shadow: var(--shadow-md);
+}
+
+.contador-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-light);
+  margin-bottom: 1.25rem;
+  font-weight: 500;
+}
+
+.contador-display {
+  border-radius: var(--radius-lg);
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  transition: background var(--transition), border-color var(--transition);
+  border: 2px solid transparent;
+}
+
+.contador--cero {
+  background: var(--color-danger-light);
+  border-color: var(--color-danger);
+}
+
+.contador--cero .contador-numero {
+  color: var(--color-danger);
+}
+
+.contador--positivo {
+  background: var(--color-success-light);
+  border-color: var(--color-success);
+}
+
+.contador--positivo .contador-numero {
+  color: var(--color-success);
+}
+
+.contador-numero {
+  display: block;
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: var(--font-display);
+  line-height: 1;
+  transition: color var(--transition);
+}
+
+.contador-estado {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin-top: 6px;
+}
+
+.contador-botones {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
