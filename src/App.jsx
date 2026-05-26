@@ -48,7 +48,7 @@ function App() {
         {/* ========== PUNTO 2: Cards reutilizables ========== */}
         <section id="cards" className="section">
           <h2 className="section-title">
-            Card Reutilizable con Props <span>Punto 2</span>
+            Card <span>Reutilizable con Props</span>
           </h2>
           <div className="cards-grid">
             {CARDS_DEMO.map(curso => (
@@ -73,7 +73,7 @@ function App() {
         {/* ========== PUNTO 3: Contador ========== */}
         <section id="contador" className="section">
           <h2 className="section-title">
-            Contador con useState <span>Punto 3</span>
+            Contador <span>con useState</span>
           </h2>
           <Contador />
         </section>
@@ -81,7 +81,7 @@ function App() {
         {/* ========== PUNTO 4: Formulario controlado ========== */}
         <section id="formulario" className="section">
           <h2 className="section-title">
-            Formulario Controlado con Preview <span>Punto 4</span>
+            Formulario Controlado con Preview <span>Controlado con Preview</span>
           </h2>
           <ContactForm />
         </section>
@@ -89,7 +89,7 @@ function App() {
         {/* ========== PUNTO 5: Lista de productos ========== */}
         <section id="productos" className="section">
           <h2 className="section-title">
-            Lista de Productos con Filtros <span>Punto 5</span>
+            Lista de Productos <span>con Filtros</span>
           </h2>
           <ProductList />
         </section>
@@ -97,7 +97,7 @@ function App() {
         {/* ========== PUNTO 6: To-Do App ========== */}
         <section id="todo" className="section">
           <h2 className="section-title">
-            To-Do App Completa <span>Punto 6</span>
+            To-Do <span>App Completa</span>
           </h2>
           <TodoApp />
         </section>

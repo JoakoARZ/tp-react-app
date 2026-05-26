@@ -1,6 +1,6 @@
 # TP6 React — Prácticas Profesionalizantes II
 
-Aplicación React desarrollada como Trabajo Práctico N°6 de la materia **Prácticas Profesionalizantes II: Programador Junior**.
+Aplicación React - Trabajo Práctico N°6 **Prácticas Profesionalizantes II**.
 
 ## 📸 Descripción
 
@@ -51,40 +51,36 @@ npm install
 npm run dev
 ```
 
+
 La app estará disponible en `http://localhost:5173`
-
-### 4. Build para producción
-
-```bash
-npm run build
 ```
 
 ## 📋 Funcionalidades
 
-### ✅ Punto 2 — Cards reutilizables
+###  Punto 2 — Cards reutilizables
 - Acepta `titulo`, `descripcion`, `imagen`, `precio`, `categoria`, `enStock` y `children`
 - Muestra badge de categoría y estado de stock
 - Hover effect con sombra y zoom en imagen
 
-### ✅ Punto 3 — Contador
+###  Punto 3 — Contador
 - Botones +1, -1 y Reset
 - Botón -1 deshabilitado en 0
 - Color verde (positivo) / rojo (en cero)
 
-### ✅ Punto 4 — Formulario controlado
+###  Punto 4 — Formulario controlado
 - Campos nombre, email y mensaje con `useState`
 - Preview en tiempo real de los datos ingresados
 - Botón de envío deshabilitado si hay campos vacíos
 - `e.preventDefault()` + log en consola
 
-### ✅ Punto 5 — Lista de productos
+###  Punto 5 — Lista de productos
 - 8 productos con id, nombre, precio, categoria, enStock
 - Filtro por categoría con `<select>`
 - Checkbox "Solo en stock"
 - Ambos filtros combinados
 - Mensaje "No hay productos" cuando no hay resultados
 
-### ✅ Punto 6 — To-Do App
+###  Punto 6 — To-Do App
 - Agregar tareas (input + Enter o botón)
 - No permite tareas vacías
 - Toggle completada con spread operator
@@ -92,3 +88,47 @@ npm run build
 - Contador dinámico de pendientes
 - Mensaje "No hay tareas" cuando está vacío
 - Tachado CSS en tareas completadas
+
+## 📸 Capturas de la aplicación
+
+### 🃏 Cards reutilizables
+Se muestran 4+ Cards distintas renderizadas en pantalla.
+![Cards renderizadas](./src/assets/card.png)
+
+---
+
+### 🔢 Contador con useState
+- Estado inicial en 0 (rojo).
+![Contador en 0](./src/assets/contador0.png)
+
+- Estado con valor mayor a 0 (verde).
+![Contador en 1](./src/assets/contador-verde.png)
+
+---
+
+### 📝 Formulario controlado
+Vista del formulario y el preview en vivo mientras se escribe.
+![Formulario controlado](./src/assets/formulario.png)
+
+---
+
+### 🛒 Lista de productos con filtros
+- Todos los productos.
+![Productos completos](./src/assets/lista-de-productos.png)
+
+- Filtro por categoría.
+![Filtro categoría](./src/assets/productos-categoria.png)
+
+- Checkbox “Solo en stock”.
+![Solo en stock](./src/assets/productos-stock.png)
+
+---
+
+### ✅ To‑Do App
+- Lista con tareas agregadas y una tarea marcada como completada (tachada).
+![Tareas agregadas](./src/assets/todo-lista.png)
+
+- Lista vacía mostrando el mensaje “No hay tareas”.
+![Lista vacía](./src/assets/todo-vacio.png)
+
+---

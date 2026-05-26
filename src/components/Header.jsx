@@ -6,7 +6,7 @@ function Header() {
       <div className="header-inner">
         <div className="header-brand">
           <div className="header-logo">⚛</div>
-          <h1 className="header-title">TP6 React</h1>
+          <h1 className="header-title">CompuEAST</h1>
         </div>
         <nav className="header-nav">
           <a href="#cards">Cards</a>

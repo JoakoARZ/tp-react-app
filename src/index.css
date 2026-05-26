@@ -2,31 +2,45 @@
    VARIABLES GLOBALES
    ===================== */
 :root {
-  --color-primary: #2563eb;
-  --color-primary-dark: #1d4ed8;
-  --color-primary-light: #dbeafe;
-  --color-success: #16a34a;
-  --color-success-light: #dcfce7;
-  --color-danger: #dc2626;
-  --color-danger-light: #fee2e2;
-  --color-warning: #d97706;
-  --color-warning-light: #fef3c7;
-  --color-bg: #f8fafc;
-  --color-surface: #ffffff;
-  --color-border: #e2e8f0;
-  --color-text: #0f172a;
-  --color-text-muted: #64748b;
-  --color-text-light: #94a3b8;
+  /* ── Paleta principal: Azul grisáceo (Steel Blue) ── */
+  --color-primary:       #4a7fa5;   /* azul grisáceo medio — acción principal  */
+  --color-primary-dark:  #2e5f7e;   /* hover / active                          */
+  --color-primary-light: #daeaf5;   /* fondos sutiles, badges, focus rings     */
+  --color-primary-xlight:#f0f7fc;   /* fondo de secciones destacadas           */
+
+  /* ── Acento secundario: azul pizarra ── */
+  --color-accent:        #2d5e8e;   /* títulos, énfasis fuerte                 */
+  --color-accent-light:  #b8d4ea;   /* bordes de acento                        */
+
+  /* ── Estados semánticos ── */
+  --color-success:       #3a8c6e;   /* verde sobrio, sin saturar               */
+  --color-success-light: #d6f0e8;
+  --color-danger:        #c0434b;   /* rojo apagado, profesional               */
+  --color-danger-light:  #fae0e1;
+  --color-warning:       #b07d2e;   /* ámbar oscuro                            */
+  --color-warning-light: #fdf0d6;
+
+  /* ── Neutros ── */
+  --color-bg:            #f2f5f8;   /* fondo general: gris con tinte azul      */
+  --color-surface:       #ffffff;   /* tarjetas / paneles                      */
+  --color-surface-alt:   #e8eef4;   /* superficie alternativa más oscura       */
+  --color-border:        #cdd8e3;   /* bordes visibles pero suaves             */
+  --color-border-light:  #e4edf4;   /* bordes muy sutiles                      */
+
+  /* ── Tipografía ── */
+  --color-text:          #1a2a38;   /* casi negro con tinte azul               */
+  --color-text-muted:    #52687a;   /* texto secundario                        */
+  --color-text-light:    #8da0b0;   /* placeholders, labels                    */
 
   --radius-sm: 6px;
   --radius-md: 10px;
   --radius-lg: 16px;
   --radius-xl: 24px;
 
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
-  --shadow-md: 0 4px 12px rgba(0,0,0,0.08), 0 2px 6px rgba(0,0,0,0.05);
-  --shadow-lg: 0 10px 30px rgba(0,0,0,0.1), 0 4px 12px rgba(0,0,0,0.06);
-  --shadow-hover: 0 8px 24px rgba(37,99,235,0.15), 0 4px 12px rgba(37,99,235,0.08);
+  --shadow-sm:    0 1px 3px rgba(42,74,105,0.08), 0 1px 2px rgba(42,74,105,0.04);
+  --shadow-md:    0 4px 12px rgba(42,74,105,0.10), 0 2px 6px rgba(42,74,105,0.06);
+  --shadow-lg:    0 10px 30px rgba(42,74,105,0.12), 0 4px 12px rgba(42,74,105,0.07);
+  --shadow-hover: 0 8px 24px rgba(74,127,165,0.22), 0 4px 12px rgba(74,127,165,0.12);
 
   --font-display: 'Sora', sans-serif;
   --font-body: 'DM Sans', sans-serif;
